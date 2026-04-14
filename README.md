@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Descrição do Exercício
+##  Descrição do Exercício
 
 Prova individual utilizando **Docker + MongoDB** com as seguintes ferramentas permitidas:
 - `mongosh` ou **MongoDB Compass**
@@ -20,7 +20,7 @@ Prova individual utilizando **Docker + MongoDB** com as seguintes ferramentas pe
 
 ---
 
-## 🗄️ Estrutura do Banco de Dados
+## Estrutura do Banco de Dados
 
 - **Banco:** `escola` *(renomeado para `faculdadedevassourasmarica` para diferenciação)*
 - **Collection:** `alunos`
@@ -182,6 +182,6 @@ db.alunos.aggregate([
 
 ---
 
-## ⚠️ Observação
+##  Observação
 
 > Caso haja provas iguais, a nota será **zero**.
