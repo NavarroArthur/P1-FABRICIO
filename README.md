@@ -42,7 +42,7 @@ Prova individual utilizando **Docker + MongoDB** com as seguintes ferramentas pe
 
 ---
 
-## 🛠️ Resolução
+##  Resolução
 
 ### Configuração do Docker Compose
 
@@ -72,7 +72,7 @@ Os 5 alunos foram inseridos na collection `alunos` pelo recurso **ADD DATA** do 
 
 ---
 
-## 🔍 Consultas Realizadas
+##  Consultas Realizadas
 
 ### 1. Buscar todos os alunos
 
