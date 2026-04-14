@@ -48,7 +48,8 @@ Prova individual utilizando **Docker + MongoDB** com as seguintes ferramentas pe
 
 Foi criado um **Docker Compose** para executar o MongoDB. O banco foi nomeado `faculdadedevassourasmarica` para diferenciá-lo do nome genérico solicitado (`escola`).
 
-![Docker Compose](images/image1.png)
+<img width="1145" height="264" alt="image1" src="https://github.com/user-attachments/assets/e224a6d1-1d84-4d30-aa03-b3b581cf0968" />
+
 
 ---
 
@@ -56,7 +57,8 @@ Foi criado um **Docker Compose** para executar o MongoDB. O banco foi nomeado `f
 
 Conexão realizada via **MongoDB Compass** ao `localhost` configurado no Docker Compose (porta padrão).
 
-![Conexão MongoDB Compass](images/image2.png)
+<img width="841" height="428" alt="image2" src="https://github.com/user-attachments/assets/08764159-b1bf-4a51-a561-58eefc404823" />
+
 
 ---
 
@@ -64,9 +66,9 @@ Conexão realizada via **MongoDB Compass** ao `localhost` configurado no Docker 
 
 Os 5 alunos foram inseridos na collection `alunos` pelo recurso **ADD DATA** do MongoDB Compass.
 
-![Alunos inseridos - parte 1](images/image3.png)
+<img width="445" height="752" alt="image3" src="https://github.com/user-attachments/assets/492136d3-1f40-44f8-baee-8e1203b1dcb5" />
+<img width="343" height="186" alt="image4" src="https://github.com/user-attachments/assets/b81a5445-8746-4ffe-85f1-26dbccc40d19" />
 
-![Alunos inseridos - parte 2](images/image4.png)
 
 ---
 
@@ -78,9 +80,9 @@ Os 5 alunos foram inseridos na collection `alunos` pelo recurso **ADD DATA** do 
 db.alunos.find()
 ```
 
-![Buscar todos os alunos - parte 1](images/image5.png)
+<img width="481" height="704" alt="image5" src="https://github.com/user-attachments/assets/60006f36-244f-49db-b60a-66d4cde4d2be" />
+<img width="335" height="909" alt="image6" src="https://github.com/user-attachments/assets/0ce9e1bc-0f6e-4bd9-b2e9-929d422216f8" />
 
-![Buscar todos os alunos - parte 2](images/image6.png)
 
 ---
 
@@ -90,7 +92,8 @@ db.alunos.find()
 db.alunos.find({ curso: "ADS" })
 ```
 
-![Buscar alunos do curso ADS](images/image7.png)
+<img width="786" height="992" alt="image7" src="https://github.com/user-attachments/assets/1ff1818e-31a4-4074-b093-5ad75bfdd805" />
+
 
 ---
 
@@ -100,9 +103,8 @@ db.alunos.find({ curso: "ADS" })
 db.alunos.find({ idade: { $gt: 21 } })
 ```
 
-![Buscar alunos com idade > 21 - parte 1](images/image8.png)
-
-![Buscar alunos com idade > 21 - parte 2](images/image9.png)
+<img width="569" height="901" alt="image8" src="https://github.com/user-attachments/assets/fd2c7f50-54ae-43b1-8763-05be773826e9" />
+<img width="398" height="627" alt="image9" src="https://github.com/user-attachments/assets/9b783caa-a50c-4236-96b1-c92df1563d27" />
 
 ---
 
@@ -115,7 +117,8 @@ db.alunos.updateOne(
 )
 ```
 
-![Atualizar idade de um aluno](images/image10.png)
+<img width="272" height="224" alt="image10" src="https://github.com/user-attachments/assets/d7397431-d972-418e-8915-b3dc0bb24e0e" />
+
 
 ---
 
@@ -128,7 +131,8 @@ db.alunos.updateOne(
 )
 ```
 
-![Adicionar nova nota](images/image11.png)
+<img width="366" height="226" alt="image11" src="https://github.com/user-attachments/assets/348fbfd8-73d5-41cb-b411-e56d12667f54" />
+
 
 ---
 
@@ -138,7 +142,8 @@ db.alunos.updateOne(
 db.alunos.deleteOne({ nome: "Nome do Aluno" })
 ```
 
-![Remover um aluno](images/image12.png)
+<img width="350" height="104" alt="image12" src="https://github.com/user-attachments/assets/ae0ce2a8-9769-40d4-a7e7-522ba6d985cc" />
+
 
 ---
 
@@ -155,7 +160,8 @@ db.alunos.aggregate([
 ])
 ```
 
-![Média de notas por aluno](images/image13.png)
+<img width="452" height="560" alt="image13" src="https://github.com/user-attachments/assets/45f0632a-1e70-47d1-9c58-54f9a260c244" />
+
 
 ---
 
@@ -172,7 +178,7 @@ db.alunos.aggregate([
 ])
 ```
 
-![Quantidade de alunos por curso](images/image14.png)
+<img width="384" height="364" alt="image14" src="https://github.com/user-attachments/assets/525e1709-8e86-49ef-8b57-9f6e31051ab3" />
 
 ---
 
